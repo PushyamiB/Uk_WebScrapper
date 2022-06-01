@@ -1,0 +1,13 @@
+{
+    "table": "blockchain",
+    "attributes": [
+        
+        {"pyt_field": "Certificate_Id","sql_col":"userCertificate","sql_type":"%s","p_type":"int"},
+        {"pyt_field": "Org","sql_col":"organisation","sql_type":"%s","p_type":"str"},
+        {"pyt_field": "NAME","sql_col":"name","sql_type":"%s","p_type":"str"},
+	{"pyt_field": "EVENT","sql_col":"course","sql_type":"%s","p_type":"str"},
+	{"pyt_field": "hashCode","sql_col":"hashcode","sql_type":"%s","p_type":"str"},
+	{"pyt_field": "EMAIL","sql_col":"email","sql_type":"%s","p_type":"str"},
+	{"pyt_field": "MOBILE (WHATSAPP)","sql_col":"mobileNo","sql_type":"%s","p_type":"str"}
+    ]
+}

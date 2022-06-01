@@ -1,0 +1,139 @@
+{
+    "table": "Products_v4",
+    "attributes": [
+        {
+            "pyt_field": "Product",
+            "sql_col": "Product_name",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "Weight",
+            "sql_col": "Quantity(kgs)",
+            "sql_type": "%s",
+            "p_type": "str",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "Quantity",
+            "sql_col": "Quantity(pcs)",
+            "sql_type": "%s",
+            "p_type": "str",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "Price",
+            "sql_col": "Original_price",
+            "sql_type": "%s",
+            "p_type": "str",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "Discount_Price",
+            "sql_col": "Discounted_price",
+            "sql_type": "%s",
+            "p_type": "str",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "Web_url",
+            "sql_col": "WebURL",
+            "sql_type": "%s",
+            "p_type": "str",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "UK_PID",
+            "sql_col": "UK_PID",
+            "sql_type": "%d",
+            "p_type": "int",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "Source",
+            "sql_col": "Source",
+            "sql_type": "%s",
+            "p_type": "str",
+						 "URQF":"Yes"
+        },
+        {
+            "pyt_field": "ID",
+            "sql_col": "ProductID",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "DateTime",
+            "sql_col": "Date_time",
+            "sql_type": "%d",
+            "p_type": "datetime",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "Imgurl",
+            "sql_col": "Image_URL",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "UK_Qty",
+            "sql_col": "UK_Product_Weight",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "productName",
+            "sql_col": "UK_Product_Name",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "MrpPrice",
+            "sql_col": "UK_MRP_Price",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+        {
+            "pyt_field": "BuyPrice",
+            "sql_col": "UK_Product_Buy_Price",
+            "sql_type": "%s",
+            "p_type": "str",
+						"URQF":"Yes"
+        },
+	{
+            "pyt_field": "BuyFriendPrice",
+            "sql_col": "UK_Product_Buy_Frnd_Price",
+            "sql_type": "%s",
+            "p_type": "str",
+                                                "URQF":"Yes"
+        },
+	{
+            "pyt_field": "City",
+            "sql_col": "City",
+            "sql_type": "%s",
+            "p_type": "str",
+                                                "URQF":"Yes"
+        },
+	{
+            "pyt_field": "InStock",
+            "sql_col": "InStock",
+            "sql_type": "%s",
+            "p_type": "str",
+                                                "URQF":"Yes"
+        },
+    {
+            "pyt_field": "source_link_Type",
+            "sql_col": "Source_catergory",
+            "sql_type": "%s",
+            "p_type": "str",
+                                                "URQF":"Yes"
+        }
+
+    ]
+}
